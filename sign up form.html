@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+			<style type="text/css">
+div#mine {
+    background-color:black;
+    color:yellow;
+    margin:20px;
+    padding:20px;
+		p{
+			padding: 15px;
+		}</style>
+<body>
+	<div id="mine">
+	<form>
+		<fieldset>
+			<h3>SIGN UP FORM</h3>
+			<p>pleae fill in the form with required details</p>
+			<label for="fname">first name</label><br><br>
+		<input type="text" name="first name"
+		placeholder="enter name here" id="fname" required="">
+		<br>
+		<label for="sname">surname</label><br><br>
+		<input type="text" name="surname" placeholder="enter surname" id="sname">
+		<br><br>
+		<input type="radio" name="gender" value="male" checked="">Male<br>
+		<input type="radio" name="gender" value="female">Female <br>
+		<input type="radio" name="gender" value="N/A"> prefer not to disclose
+		<br><br>
+		<label>DOB</label><br>
+		<input id="date"   type="date"><br>
+		<label>password</label><br><br>
+		<input type="password" name="psw" placeholder="enter 
+		password" required=""> <br><br>
+		<label>confirm pasword</label> <br><br>
+		<input type="password" name="psw2" placeholder="confirm 
+		password" required=""> <br><br>
+		<label>country</label><br><br>
+			<select>
+				<option>Ethiopia</option>
+				<option>Kenya</option>
+				<option>Somalia</option>
+				<option>Uganda</option>
+			</select><br><br>
+			<input type="submit" name="submit
+			" value="SUBMIT">
+
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>
